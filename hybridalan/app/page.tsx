@@ -12,8 +12,8 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <div>
         <h1>Homepage</h1>
-        <Link href="/pages/homepage">Link to Homepage</Link>
-        <button onClick={()=> router.push("/pages/homepage")}>Go To Homepage</button>
+        <Link href="/games/mariokart">Link to Mario Kart</Link>
+        <Link href="/games/smash">Link to Smash</Link>
       </div>
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
