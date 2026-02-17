@@ -1,5 +1,8 @@
-import React from "react";
-import { Person , PlayerProps} from "../types/person";
+"use client";
+import { Person, PlayerProps} from "../types/person";
+import { removePlayer } from "@/lib/removePlayer";
+import { Button } from "./ui/button";
+import { X } from "lucide-react";
 
 
 const initials = (name: string) =>
@@ -10,7 +13,7 @@ const initials = (name: string) =>
 		.join("")
 		.toUpperCase();
 
-export default function PlayerCard({ person, className }: PlayerProps) {
+export default function PlayerCard({ person, className }: PlayerProps & { removePlayer: (person: Person) => void }) {
 	return (
 		<div
 			className={className}
@@ -57,11 +60,6 @@ export default function PlayerCard({ person, className }: PlayerProps) {
 					<div style={{ fontSize: 16, fontWeight: 700, color: "#111" }}>
 						{person.name}
 					</div>
-					{person.title && (
-						<div style={{ fontSize: 12, color: "#666", marginLeft: 8 }}>
-							{person.title}
-						</div>
-					)}
 				</div>
 				<div
 					style={{
@@ -75,6 +73,9 @@ export default function PlayerCard({ person, className }: PlayerProps) {
 				>
 				</div>
 			</div>
+			<Button onClick={() => removePlayer(person)} size = "icon" variant= "ghost">
+				<X className="text-red"/>
+			</Button>
 		</div>
 	);
 }

@@ -1,19 +1,16 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 
 export default function Home() {
-  const router = useRouter()
 
   return (
     
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <div>
         <h1>Homepage</h1>
-        <Link href="/games/mariokart">Link to Mario Kart</Link>
-        <Link href="/games/smash">Link to Smash</Link>
+        <Link href="/homepage">Link to HomePage</Link>
       </div>
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
