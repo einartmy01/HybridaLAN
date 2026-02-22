@@ -1,0 +1,177 @@
+{
+  "lans": [
+    {
+      "id": "lan-5",
+      "name": "Hybrida LAN test",
+      "year": "2026",
+      "tournaments": [
+        {
+          "id": "tournament-1",
+          "name": "Mario Kart Double Elimination Cup",
+          "game": {
+            "id": "game-mariokart",
+            "name": "Mario Kart",
+            "platform": "Nintendo Switch"
+          },
+          "bracket": "double_elimination",
+          "contestants": [
+            {
+              "id": "person-1",
+              "name": "MKPlayer 1"
+            },
+            {
+              "id": "person-2",
+              "name": "MKPlayer 2"
+            },
+            {
+              "id": "person-3",
+              "name": "MKPlayer 3"
+            },
+            {
+              "id": "person-4",
+              "name": "MKPlayer 4"
+            },
+            {
+              "id": "person-5",
+              "name": "MKPlayer 5"
+            },
+            {
+              "id": "person-6",
+              "name": "MKPlayer 6"
+            },
+            {
+              "id": "person-7",
+              "name": "MKPlayer 7"
+            },
+            {
+              "id": "person-8",
+              "name": "MKPlayer 8"
+            },
+            {
+              "id": "person-9",
+              "name": "MKPlayer 9"
+            },
+            {
+              "id": "person-10",
+              "name": "MKPlayer 10"
+            },
+            {
+              "id": "person-11",
+              "name": "MKPlayer 11"
+            },
+            {
+              "id": "person-12",
+              "name": "MKPlayer 12"
+            },
+            {
+              "id": "person-13",
+              "name": "MKPlayer 13"
+            }
+          ],
+          "matches": []
+        },
+        {
+          "id": "tournament-2",
+          "name": "Smash Bros Single Elimination Cup",
+          "game": {
+            "id": "game-smash",
+            "name": "Smash Bros",
+            "platform": "Nintendo Switch"
+          },
+          "bracket": "single_elimination",
+          "contestants": [
+            {
+              "id": "person-14",
+              "name": "MKPlayer 14"
+            },
+            {
+              "id": "person-15",
+              "name": "SmashPlayer 1"
+            },
+            {
+              "id": "person-16",
+              "name": "SmashPlayer 2"
+            },
+            {
+              "id": "person-17",
+              "name": "SmashPlayer 3"
+            },
+            {
+              "id": "person-18",
+              "name": "SmashPlayer 4"
+            },
+            {
+              "id": "person-19",
+              "name": "SmashPlayer 5"
+            },
+            {
+              "id": "person-20",
+              "name": "SmashPlayer 6"
+            },
+            {
+              "id": "person-21",
+              "name": "SmashPlayer 7"
+            },
+            {
+              "id": "person-22",
+              "name": "SmashPlayer 8"
+            }
+          ],
+          "matches": []
+        }
+      ]
+    },
+    {
+      "id": "lan-6",
+      "name": "Hybrida LAN Summer",
+      "year": "2027",
+      "tournaments": [
+        {
+          "id": "tournament-3",
+          "name": "Mario Kart Summer Cup",
+          "game": {
+            "id": "game-mariokart",
+            "name": "Mario Kart",
+            "platform": "Nintendo Switch"
+          },
+          "bracket": "single_elimination",
+          "contestants": [
+            {
+              "id": "person-1",
+              "name": "MKPlayer 1"
+            },
+            {
+              "id": "person-2",
+              "name": "MKPlayer 2"
+            },
+            {
+              "id": "person-3",
+              "name": "MKPlayer 3"
+            },
+            {
+              "id": "person-4",
+              "name": "MKPlayer 4"
+            },
+            {
+              "id": "person-5",
+              "name": "MKPlayer 5"
+            },
+            {
+              "id": "person-6",
+              "name": "MKPlayer 6"
+            },
+            {
+              "id": "person-7",
+              "name": "MKPlayer 7"
+            },
+            {
+              "id": "person-8",
+              "name": "MKPlayer 8"
+            }
+          ],
+          "matches": []
+        }
+      ]
+    }
+  ]
+}

@@ -50,33 +50,4 @@ export const smashTournament: Tournament = {
   matches: [],
 };
 
-export const LANData: LAN[] = [
-    {
-        id: "lan-1",
-        name: "Oslo LAN 2023",
-        year: "2023",
-        tournaments: [],
-    },
-    {
-        id: "lan-2",
-        name: "Bergen LAN 2023",
-        year: "2023",
-        tournaments: [],
-    },
-    {
-        id: "lan-3",
-        name: "Trondheim LAN 2024",
-        year: "2024",
-        tournaments: [],
-    },
-    {
-        id: "lan-4",
-        name: "Stavanger LAN 2024",
-        year: "2024",
-        tournaments: [],
-    },
-];
-
 LANtest.tournaments.push(marioKartTournament, smashTournament);
-
-LANData.push(LANtest);

@@ -3,7 +3,7 @@ import PlayerCard from "@/components/playerCard";
 import { use, useState } from "react";
 import { Person } from "@/types/person";
 import { removePlayer } from "@/lib/removePlayer";
-import { LANData } from "@/data/metadata";
+import { LANtest } from "@/data/metadata";
 import { LAN } from "@/types/lan";
 
 
@@ -17,7 +17,7 @@ type PageProps = {
 export default function GamePage({ params }: PageProps) {
 
   const {lanID, gameID}  =  use(params);
-  const lan = LANData.find((l) => l.id === lanID) as LAN;
+  const lan = LANtest//.find((l) => l.id === lanID) as LAN;
   const [tournament, setTournament] = useState(lan.tournaments.find((t) => t.game.id === gameID));
 
 
